@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+        <link rel="stylesheet" type="text/css" href="css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="css/slide.css">
+        <link rel="stylesheet" type="text/css" href="css/offer.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="javascript/database.js"></script>
+        </head>
+  <body>
+
+    <!--Navbar start-->
+
+    <div class="navcontainer">
+      <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+  <div class="navbar">
+  
+  <div class="icon-bar" onclick="Show()">
+      <i></i>
+      <i></i>
+      <i></i>
+  </div>
+  
+  <ul id="nav-lists">
+      <li class="close"><span onclick="Hide()">×</span></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="login.html">Sign in</a></li>
+      <li style="display: none;" id="logoutmenu"><a href="login.html">Log Out</a></li>
+  </ul>
+  
+  </div>
+  </div>
+  <script src="javascript/navbar.js"></script>
+    <!--Navbar ends-->
+
+
+    <!-- Slideshow container -->
+	<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+      
+      <img src="images/a.jpg" style="width:100%" height="600px">
+      <!--<div class="text">CN Tower</div>-->
+    </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="images/b.jpg" style="width:100%" height="600px">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      
+     <img src="images/c.jpg" style="width:100%" height="600px">
+      
+    </div>
+     <div class="mySlides fade">
+      
+     <img src="images/d.jpg" style="width:100%" height="600px">
+      
+    </div>
+    
+    <div class="mySlides fade">
+      
+     <img src="images/e.jpg" style="width:100%" height="600px">
+      
+    </div>
+  
+    <div class="mySlides fade">
+      
+     <img src="images/f.jpg" style="width:100%" height="600px" >
+      
+    </div>
+  
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+     <span class="dot" onclick="currentSlide(4)"></span> 
+     <span class="dot" onclick="currentSlide(5)"></span> 
+      <span class="dot" onclick="currentSlide(6)"></span> 
+  </div>
+
+  
+  <!--Slider ends-->
+
+    <div style="background-color:#f1f1f1;padding:15px;">
+        <h1>Infinity Travel</h1>
+        <h3>Travel the world</h3>
+      </div>
+      
+      <div style="overflow:auto">
+        <div class="menu">
+          <div class="menuitem"><b>Top Rated Destinations</b></div>
+          <div class="menuitem"><a href="services.html#paris">Paris</a></div>
+          <div class="menuitem"><a href="services.html#new_york">New York</a></div>
+          <div class="menuitem"><a href="services.html#austria">Austria</a></div>
+        </div>
+      
+        <div class="main">
+          <h2>WHY US?</h2>
+          <p>“A little help? No problem.  A lot of help? We’d love to.”</p>
+          <p>Infinity Travels Concierge Service provides a diverse range of personalized services to maintain the expectations of your travel needs.  We craft and create holidays which are tailor-made from start to finish just for you. We will customize your journey to explore the globe all while treating you to uncompromising luxury.
+            We have access to amenities, upgrades, benefits, unadvertised excursions, extravagances and many other extra services.  In addition we carefully handle delicate  matters with the utmost discretion and taste.   Each request is a phone call away.</p>
+          
+        </div>
+      
+        <div class="right">
+          <h2>What we're about?</h2>
+          <p>This co-ed group is a community of international travelers who are looking to fill their passports and make connections with other travelers while doing so!</p>
+          <p>Join us as we head on adventures to see the world and have meetups to connect with each other.</p>
+          
+        </div>
+      </div>
+
+      <!--Services Start-->
+      <div id = "offer_container">
+        <img id = "offer_img" src=".\images\bdt.jpg" style="width:100%; height:650px;"/>
+     
+     <div class = "offer_display_divs">
+         
+       <div id = "offer_img_div1">
+       
+         <div class = "offer_content_holder">
+               <div class="heading">
+               <p class="a"> Paris</P>
+               </div>
+               
+               <div class="offer_percent">
+               <p class="b">50%</p>
+               </div>
+               <div class="last_title">
+               <p class="c">Last Minute Offer</p>
+               </div>
+               <div class="about_offers">
+               <p class="about_offer">We are providing summer special offers.<br>Enjoy your vacations with family and friends.</p>
+               </div>
+               
+               <div>
+               <a style="color: #fff;" href="services.html#paris">See offer</a> 
+               </div>
+         </div>		
+       </div>
+         <div id = "offer_img_div2">
+               <div class = "offer_content_holder">
+               <div class="heading">
+               <p class="a"> New York</P>
+               </div>
+               
+               <div class="offer_percent">
+               <p class="b">40%</p>
+               </div>
+               <div class="last_title">
+               <p class="c">Last Minute Offer</p>
+               </div>
+               <div class="about_offers">
+               <p class="about_offer">We are providing summer special offers.<br>Enjoy your vacations with family and friends.
+               <BR>See Wild animals live</p>
+                <br>
+               </div>
+               
+               <div>
+                <a style="color: #ffff;" href="services.html#new_york">See offer</a>  
+               </div>
+               
+         </div>		
+         </div>
+         
+     </div>
+     </div>
+      <!--Services End-->
+      
+      <!--Get in touch start-->
+      
+      <div class="contact-container">
+        <form action="">
+          <div class="row">
+            <h2 style="text-align:center">Get in touch</h2>
+            <div class="vl">
+              
+            </div>
+      
+            <div class="col">
+             
+                <input type="text" class="form-control" placeholder="Title" id="titlehome" name="title" required>
+                <textarea style="width: 100%;" rows="5" class="form-control" placeholder="Message" id="messagehome" name="message" required></textarea>
+                <input type="submit" value="Send" onclick="checkstatus()">
+
+            </div>
+      
+            <div class="col">
+              
+      
+                                <p><i class="fa fa-map-marker"></i> 200 Matheson Blvd W, Unit-202</p>
+                                <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Mississauga, Ontario</p>
+                                <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Canada – L5R 3L7</p>
+                                <p><i class="fa fa-phone"></i> +1-647-343-5453</p>
+            </div>
+            
+          </div>
+        </form>
+      </div>
+      
+
+      
+      <!--Get in touch end-->
+
+      <!--Footer Start-->
+      <div class="footercontainer">
+
+        <div class="social-media-container">
+          <ul><centre>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </ul></centre>
+        </div>
+        <div style="text-align:center;padding:10px;margin-top:7px;font-size:15px; color: #fff;"> &copy; Copyright 2020, Infinity Travel</div>
+      </div>
+      <!--Footer End-->
+      
+  </body>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+    </script>
+</html>
